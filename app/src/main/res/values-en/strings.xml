@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">CE-1257218</string>
+    <string name="main_text_responsible_item">Dnipropetrovsk LEC ()</string>
+    <string name="main_text_heading">Community facilities</string>
+    <string name="main_text_status">At work</string>
+    <string name="main_text_created">Created</string>
+    <string name="main_text_date_created">25 february 2016</string>
+    <string name="main_text_register">Registered</string>
+    <string name="main_text_date_register">26 february 2016</string>
+    <string name="main_text_solve">Solve before до</string>
+    <string name="main_text_date_solve">29 february 2016</string>
+    <string name="main_text_responsible">Responsible</string>
+    <string name="main_text_description"> Sewer manhole open (at billboard), area of 18 and 19 trams turn at Myra avenue from Donetsk highway</string>
+</resources>
