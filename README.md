@@ -6,8 +6,11 @@ FirstTestYalantis
 
 Test TODO
 v	Put dimens and text sizes into res folder
+
 v	Minimal SDK version = 16
+
 v	Only portrait orientation
+
 ●	For image loading use one of third party libraries 
 ●	Support different screen sizes
 ●	Use styles 
