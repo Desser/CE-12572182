@@ -6,8 +6,9 @@
 
     /**main_activity*/
 
-    <color name="background_color">#f89900</color>
+    <color name="badge_orange">#f89900</color>
     <color name="divider_grey">#c6c6c6</color>
+    <color name="background_grey">#ebebeb</color>
 
     /**text*/
     <color name="text_item_grey">#969696</color>
