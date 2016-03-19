@@ -3,15 +3,16 @@ CE-12572182
 
 ##UI changes:  
 
-- uneven distributiun of space in list height. Made same height.
+- Uneven distributiun of space in list height. Made same height.
 
-- moved badge "In progress" to the right.
+- Moved badge "In progress" to the right.
 
-- main text color difficult to read, made more dark.
+- Main text color difficult to read, made more dark.
 
 
 
 ##Test TODO
+
 
 -	Put dimens and text sizes into res folder
 
