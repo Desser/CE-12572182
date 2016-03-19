@@ -1,10 +1,14 @@
 # CE-12572182
 FirstTestYalantis
 
-UI changes
+UI changes:  
+
 v uneven distributiun of space in list height. Made same height.
+
 v moved badge "In progress" to the right.
+
 v main text color difficult to read, made more dark.
+
 
 
 Test TODO
