@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity implements OnClickListener{
         setContentView(R.layout.activity_main);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
-        recycler = (RecyclerView) findViewById(R.id.recycler_image_view);
+
 
 
 
