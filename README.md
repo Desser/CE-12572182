@@ -1,7 +1,7 @@
 # CE-12572182
-FirstTestYalantis
+#FirstTestYalantis
 
-UI changes:  
+##UI changes:  
 
 v uneven distributiun of space in list height. Made same height.
 
@@ -11,7 +11,7 @@ v main text color difficult to read, made more dark.
 
 
 
-Test TODO
+##Test TODO
 
 v	Put dimens and text sizes into res folder
 
