@@ -1,10 +1,13 @@
 package com.yalantis.desser.ce_1257218;
 
 
+import android.annotation.TargetApi;
+import android.os.Build;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.MotionEvent;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.TextView;
@@ -15,12 +18,16 @@ import java.util.ArrayList;
 public class MainActivity extends AppCompatActivity implements OnClickListener{
 
     ArrayList<String> imageURLList = new ArrayList();
+    RecyclerView recycler;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
+        recycler = (RecyclerView) findViewById(R.id.recycler_image_view);
+
 
 
         imageURLList.add("http://d1udmfvw0p7cd2.cloudfront.net/wp-content/uploads/2016/03/n-manhole-z-20160302-870x653.jpg");
@@ -55,4 +62,7 @@ public class MainActivity extends AppCompatActivity implements OnClickListener{
         Toast.makeText(MainActivity.this, text, Toast.LENGTH_SHORT).show();
 
        }
-    }
+
+
+
+}

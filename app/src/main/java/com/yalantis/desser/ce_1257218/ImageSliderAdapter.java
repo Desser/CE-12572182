@@ -6,6 +6,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
 
@@ -16,6 +17,7 @@ public class ImageSliderAdapter extends RecyclerView.Adapter<ImageSliderAdapter.
     Context context;
     ArrayList imagesList;
     LayoutInflater layoutInflater;
+
 
     public ImageSliderAdapter(ArrayList imagesListToDisplay, Context context) {
         imagesList = imagesListToDisplay;
@@ -32,12 +34,18 @@ public class ImageSliderAdapter extends RecyclerView.Adapter<ImageSliderAdapter.
     }
 
     @Override
-    public void onBindViewHolder(SliderViewHolder holder, int position) {
+    public void onBindViewHolder(SliderViewHolder holder, final int position) {
         Glide.with(context)
                 .load(imagesList.get(position))
                 .into(holder.imageView);
+        final ImageView  imageView = holder.imageView;
+        imageView.setOnClickListener(new View.OnClickListener() {
 
-
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(context,"RecyclerView", Toast.LENGTH_SHORT).show();
+            }
+        });
     }
 
 

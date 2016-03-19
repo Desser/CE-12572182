@@ -25,9 +25,9 @@
 
                     android:text="@string/main_text_heading"
                     android:id="@+id/main_text_heading"
-                    style="@style/main_text"
-
-                    android:onClick="onClick"/>
+                    style="@style/area"
+                    android:onClick="onClick"
+                    />
 
                 <TextView
                     android:text="@string/main_text_status"
@@ -132,8 +132,8 @@
             <android.support.v7.widget.RecyclerView xmlns:android="http://schemas.android.com/apk/res/android"
                 xmlns:tools="http://schemas.android.com/tools"
                 android:id="@+id/recycler_image_view"
-                android:layout_width="match_parent"
-                android:layout_height="200dp" />
+                android:onClick="onClick"
+                style="@style/recycle_view" />
 
 
         </LinearLayout>
