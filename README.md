@@ -1,28 +1,39 @@
-# CE-12572182
-FirstTestYalantis
+CE-12572182
+#FirstTestYalantis
 
-Test TODO
+##UI changes:  
 
-v	Put dimens and text sizes into res folder
+- Uneven distributiun of space in list height. Made same height.
 
-v	Minimal SDK version = 16
+- Moved badge "In progress" to the right.
 
-v	Only portrait orientation
+- Main text color difficult to read, changed to more dark.
 
-●	For image loading use one of third party libraries
 
-●	Support different screen sizes
 
-●	Use styles
+##Test TODO
 
-v	Back button should close applicatio
 
-v	Ukrainian and English localization should be included.
+-	Put dimens and text sizes into res folder
 
-●	When user presses any control, show toast with control name
+-	Minimal SDK version = 16
 
-v	Project should be pushed into github.com / bitbucket
+-	Only portrait orientation
 
-●	Use google code style
+-	For image loading use one of third party libraries
 
-●	Also you should find UI mistakes, suggest how to solve it
+-	Support different screen sizes
+
+-	Use styles
+
+-	Back button should close applicatio
+
+-	Ukrainian and English localization should be included.
+
+-	When user presses any control, show toast with control name
+
+-	Project should be pushed into github.com / bitbucket
+
+-	Use google code style
+
+-	Also you should find UI mistakes, suggest how to solve it
