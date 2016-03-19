@@ -7,7 +7,7 @@ CE-12572182
 
 - Moved badge "In progress" to the right.
 
-- Main text color difficult to read, made more dark, and backgroumd made white.
+- Main text color difficult to read, made more dark.
 
 
 
