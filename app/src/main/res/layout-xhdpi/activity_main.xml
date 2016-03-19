@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.yalantis.desser.ce_1257218.MainActivity"
+    style="@style/general_layout">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:scrollbars="none"
+        >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="1">
+
+            <FrameLayout style="@style/frame_layout">
+
+
+                <TextView
+
+                    android:text="@string/main_text_heading"
+                    android:id="@+id/main_text_heading"
+                    style="@style/main_text"
+
+                    android:onClick="onClick"/>
+
+                <TextView
+                    android:text="@string/main_text_status"
+                    android:id="@+id/main_text_status"
+
+                    android:onClick="onClick"
+                    style="@style/status" />
+            </FrameLayout>
+
+            <View
+                style="@style/divider"/>
+
+
+
+            <FrameLayout style="@style/frame_layout">
+
+                <TextView
+                    android:text="@string/main_text_created"
+                    android:id="@+id/main_text_created"
+
+                    android:onClick="onClick"
+                    style="@style/main_text" />
+
+                <TextView
+                    android:text="@string/main_text_date_created"
+                    android:id="@+id/main_text_date_created"
+                    android:onClick="onClick"
+                    style="@style/dates" />
+            </FrameLayout>
+
+            <View
+                style="@style/divider"/>
+
+            <FrameLayout style="@style/frame_layout">
+
+                <TextView
+                    android:text="@string/main_text_register"
+                    android:id="@+id/main_text_register"
+
+                    android:onClick="onClick"
+                    style="@style/main_text" />
+
+                <TextView
+                    android:text="@string/main_text_date_register"
+                    android:id="@+id/main_text_date_register"
+
+                    android:onClick="onClick"
+                    style="@style/dates" />
+            </FrameLayout>
+
+            <View
+                style="@style/divider"/>
+
+            <FrameLayout style="@style/frame_layout">
+
+                <TextView
+                    android:text="@string/main_text_solve"
+                    android:id="@+id/main_text_solve"
+
+                    android:onClick="onClick"
+                    style="@style/main_text" />
+
+                <TextView
+                    android:text="@string/main_text_date_solve"
+                    android:id="@+id/main_text_date_solve"
+
+                    android:onClick="onClick"
+                    style="@style/dates" />
+
+            </FrameLayout>
+
+            <View
+                style="@style/divider"/>
+
+            <FrameLayout style="@style/frame_layout">
+
+                <TextView
+                    android:text="@string/main_text_responsible"
+                    android:id="@+id/main_text_responsible"
+
+                    android:onClick="onClick"
+                    style="@style/main_text" />
+
+                <TextView
+                    android:text="@string/main_text_responsible_item"
+                    android:id="@+id/main_text_responsible_item"
+
+                    android:onClick="onClick"
+                    style="@style/dates" />
+            </FrameLayout>
+
+            <View
+                style="@style/divider"/>
+
+            <TextView
+                android:text="@string/main_text_description"
+                android:id="@+id/main_text_description"
+
+                android:onClick="onClick"
+                style="@style/description" />
+
+            <android.support.v7.widget.RecyclerView xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:id="@+id/recycler_image_view"
+                android:onClick="onClick"
+                style="@style/recycle_view" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
+
