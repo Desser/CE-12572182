@@ -141,3 +141,4 @@
 
 </LinearLayout>
 
+<!-- [Comment] Wrong different screen support. You should make one layout and different dimens files -->

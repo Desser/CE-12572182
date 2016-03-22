@@ -13,3 +13,7 @@
          />
 </LinearLayout>
     </RelativeLayout>
+
+<!-- [Comment] 1. It's not a fragment
+               2. Hardcode
+               3. You don't need 2 root layouts.-->

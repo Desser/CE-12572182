@@ -14,7 +14,7 @@ import java.util.ArrayList;
 
 public class ImageSliderAdapter extends RecyclerView.Adapter<ImageSliderAdapter.SliderViewHolder> {
 
-    Context context;
+    Context context; //[Comment] Wrong names and visibility modifiers
     ArrayList imagesList;
     LayoutInflater layoutInflater;
 
@@ -38,7 +38,7 @@ public class ImageSliderAdapter extends RecyclerView.Adapter<ImageSliderAdapter.
         Glide.with(context)
                 .load(imagesList.get(position))
                 .into(holder.imageView);
-        final ImageView  imageView = holder.imageView;
+        final ImageView  imageView = holder.imageView; //[Comment] You don't need this code
         imageView.setOnClickListener(new View.OnClickListener() {
 
             @Override
@@ -56,7 +56,7 @@ public class ImageSliderAdapter extends RecyclerView.Adapter<ImageSliderAdapter.
     }
 
     public class SliderViewHolder extends RecyclerView.ViewHolder {
-        protected ImageView imageView;
+        protected ImageView imageView; //[Comment] Wrong visibility modifier.
 
         public SliderViewHolder(View view) {
             super(view);
