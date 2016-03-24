@@ -28,7 +28,7 @@ public class ImageSliderAdapter extends RecyclerView.Adapter<ImageSliderAdapter.
 
     @Override
     public SliderViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.fragment_img_item, null);
+        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.img_item, null);
         SliderViewHolder viewHolder = new SliderViewHolder(view);
         return viewHolder;
     }
@@ -38,16 +38,15 @@ public class ImageSliderAdapter extends RecyclerView.Adapter<ImageSliderAdapter.
         Glide.with(context)
                 .load(imagesList.get(position))
                 .into(holder.imageView);
-        final ImageView  imageView = holder.imageView; //[Comment] You don't need this code
-        imageView.setOnClickListener(new View.OnClickListener() {
+
+        holder.imageView.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View v) {
-                Toast.makeText(context,"RecyclerView", Toast.LENGTH_SHORT).show();
+                Toast.makeText(context, "RecyclerView", Toast.LENGTH_SHORT).show();
             }
         });
     }
-
 
 
     @Override
@@ -56,11 +55,11 @@ public class ImageSliderAdapter extends RecyclerView.Adapter<ImageSliderAdapter.
     }
 
     public class SliderViewHolder extends RecyclerView.ViewHolder {
-        protected ImageView imageView; //[Comment] Wrong visibility modifier.
+        public ImageView imageView;
 
         public SliderViewHolder(View view) {
             super(view);
-            this.imageView = (ImageView) view.findViewById(R.id.fragment_image_recycler);
+            this.imageView = (ImageView) view.findViewById(R.id.image_recycler);
         }
 
     }

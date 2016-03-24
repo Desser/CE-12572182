@@ -11,4 +11,9 @@
     <string name="main_text_date_solve">29 february 2016</string>
     <string name="main_text_responsible">Responsible</string>
     <string name="main_text_description"> Sewer manhole open (at billboard), area of 18 and 19 trams turn at Myra avenue from Donetsk highway</string>
+    <string name="source_url_1">http://d1udmfvw0p7cd2.cloudfront.net/wp-content/uploads/2016/03/n-manhole-z-20160302-870x653.jpg</string>
+    <string name="source_url_2">https://upload.wikimedia.org/wikipedia/commons/8/81/Bell_Systems_manhole_hayward.jpg</string>
+    <string name="source_url_3">http://untappedcities.wpengine.netdna-cdn.com/wp-content/uploads/2014/11/Manhattan-Born-Manhole-Cover-Central-Park.jpg</string>
+    <string name="source_url_4">http://www.japanvisitor.com/images/content_images/kyoto-manhole.jpg</string>
+    <string name="source_url_5">http://torontoist.com/wp-content/uploads/2013/02/manhole-cover-art-ena-city.jpg</string>
 </resources>

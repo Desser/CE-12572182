@@ -1,21 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context="com.yalantis.desser.ce_1257218.MainActivity"
-    style="@style/general_layout">
+    style="@style/general_layout"
+    tools:context="com.yalantis.desser.ce_1257218.MainActivity">
 
 
     <ScrollView
+        android:id="@+id/scrollView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/scrollView"
-        android:scrollbars="none"
-        >
+        android:scrollbars="none">
 
         <LinearLayout
-            android:orientation="vertical"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:orientation="vertical"
             android:weightSum="1">
 
             <FrameLayout style="@style/frame_layout">
@@ -23,117 +22,110 @@
 
                 <TextView
 
-                    android:text="@string/main_text_heading"
                     android:id="@+id/main_text_heading"
                     style="@style/area"
                     android:onClick="onClick"
-                    />
+                    android:text="@string/main_text_heading" />
 
                 <TextView
-                    android:text="@string/main_text_status"
                     android:id="@+id/main_text_status"
+                    style="@style/status"
 
                     android:onClick="onClick"
-                    style="@style/status" />
+                    android:text="@string/main_text_status" />
             </FrameLayout>
 
-            <View
-                style="@style/divider"/>
-
+            <View style="@style/divider" />
 
 
             <FrameLayout style="@style/frame_layout">
 
                 <TextView
-                    android:text="@string/main_text_created"
                     android:id="@+id/main_text_created"
+                    style="@style/main_text"
 
                     android:onClick="onClick"
-                    style="@style/main_text" />
+                    android:text="@string/main_text_created" />
 
                 <TextView
-                    android:text="@string/main_text_date_created"
                     android:id="@+id/main_text_date_created"
+                    style="@style/dates"
                     android:onClick="onClick"
-                    style="@style/dates" />
+                    android:text="@string/main_text_date_created" />
             </FrameLayout>
 
-            <View
-                style="@style/divider"/>
+            <View style="@style/divider" />
 
             <FrameLayout style="@style/frame_layout">
 
                 <TextView
-                    android:text="@string/main_text_register"
                     android:id="@+id/main_text_register"
+                    style="@style/main_text"
 
                     android:onClick="onClick"
-                    style="@style/main_text" />
+                    android:text="@string/main_text_register" />
 
                 <TextView
-                    android:text="@string/main_text_date_register"
                     android:id="@+id/main_text_date_register"
+                    style="@style/dates"
 
                     android:onClick="onClick"
-                    style="@style/dates" />
+                    android:text="@string/main_text_date_register" />
             </FrameLayout>
 
-            <View
-                style="@style/divider"/>
+            <View style="@style/divider" />
 
             <FrameLayout style="@style/frame_layout">
 
                 <TextView
-                    android:text="@string/main_text_solve"
                     android:id="@+id/main_text_solve"
+                    style="@style/main_text"
 
                     android:onClick="onClick"
-                    style="@style/main_text" />
+                    android:text="@string/main_text_solve" />
 
                 <TextView
-                    android:text="@string/main_text_date_solve"
                     android:id="@+id/main_text_date_solve"
+                    style="@style/dates"
 
                     android:onClick="onClick"
-                    style="@style/dates" />
+                    android:text="@string/main_text_date_solve" />
 
             </FrameLayout>
 
-            <View
-                style="@style/divider"/>
+            <View style="@style/divider" />
 
             <FrameLayout style="@style/frame_layout">
 
                 <TextView
-                    android:text="@string/main_text_responsible"
                     android:id="@+id/main_text_responsible"
+                    style="@style/main_text"
 
                     android:onClick="onClick"
-                    style="@style/main_text" />
+                    android:text="@string/main_text_responsible" />
 
                 <TextView
-                    android:text="@string/main_text_responsible_item"
                     android:id="@+id/main_text_responsible_item"
+                    style="@style/dates"
 
                     android:onClick="onClick"
-                    style="@style/dates" />
+                    android:text="@string/main_text_responsible_item" />
             </FrameLayout>
 
-            <View
-                style="@style/divider"/>
+            <View style="@style/divider" />
 
             <TextView
-                android:text="@string/main_text_description"
                 android:id="@+id/main_text_description"
+                style="@style/description"
 
                 android:onClick="onClick"
-                style="@style/description" />
+                android:text="@string/main_text_description" />
 
             <android.support.v7.widget.RecyclerView xmlns:android="http://schemas.android.com/apk/res/android"
                 xmlns:tools="http://schemas.android.com/tools"
                 android:id="@+id/recycler_image_view"
-                android:onClick="onClick"
-                style="@style/recycle_view" />
+                style="@style/recycle_view"
+                android:onClick="onClick" />
 
 
         </LinearLayout>
@@ -141,4 +133,4 @@
 
 </LinearLayout>
 
-<!-- [Comment] Wrong different screen support. You should make one layout and different dimens files -->
+    <!-- [Comment] Wrong different screen support. You should make one layout and different dimens files -->

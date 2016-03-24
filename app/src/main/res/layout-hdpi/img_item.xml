@@ -6,7 +6,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
          <ImageView
-            android:id="@+id/fragment_image_recycler"
+             android:id="@+id/image_recycler"
              android:layout_width="200dp"
              android:layout_height="match_parent"
              android:layout_marginRight="15dp"
