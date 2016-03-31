@@ -31,11 +31,11 @@ public class MainActivity extends AppCompatActivity implements OnClickListener {
             arrayList.add(getString(R.string.source_url_4));
             arrayList.add(getString(R.string.source_url_5));
         }
-        ImageSliderAdapter imageSliderAdapter = new ImageSliderAdapter(arrayList, this);
+        ImageRecyclerAdapter imageSliderAdapter = new ImageRecyclerAdapter(arrayList, this);
         RecyclerView recyclerView = (RecyclerView) findViewById(R.id.recycler_image_view);
-        LinearLayoutManager lm = new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false);
+        LinearLayoutManager layout_manager = new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false);
         if (recyclerView != null) {
-            recyclerView.setLayoutManager(lm);
+            recyclerView.setLayoutManager(layout_manager);
         }
         if (recyclerView != null) {
             recyclerView.setAdapter(imageSliderAdapter);

@@ -12,14 +12,14 @@ import com.bumptech.glide.Glide;
 
 import java.util.ArrayList;
 
-public class ImageSliderAdapter extends RecyclerView.Adapter<ImageSliderAdapter.SliderViewHolder> {
+public class ImageRecyclerAdapter extends RecyclerView.Adapter<ImageRecyclerAdapter.SliderViewHolder> {
 
-    Context context; //[Comment] Wrong names and visibility modifiers
+    Context context;
     ArrayList imagesList;
     LayoutInflater layoutInflater;
 
 
-    public ImageSliderAdapter(ArrayList imagesListToDisplay, Context context) {
+    public ImageRecyclerAdapter(ArrayList imagesListToDisplay, Context context) {
         imagesList = imagesListToDisplay;
         this.context = context;
         layoutInflater = LayoutInflater.from(context);
